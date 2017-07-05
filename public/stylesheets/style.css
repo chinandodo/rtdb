@@ -1,0 +1,52 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#wrap{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.qDiv{
+    width: 150px;
+    float: left;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.qDiv:hover{
+    cursor: pointer;
+}
+
+.txtTitle{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#btnAdd:hover{
+    cursor: pointer;
+}
+
+#imgLoadingDiv{
+    position: absolute;
+    z-index: -1;
+    left: 275px;
+    top: 112px;
+}
+
+#imgLoading{
+    width: 80px;
+}
+
+.alLado{
+    float: left;    
+}
